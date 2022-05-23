@@ -18,7 +18,7 @@
        <p> It's currently {{ date('h:i A')}}</p>
 
        <footer>
-           <p>&copy; Coyright 2022 &middot; <a href="#">About us</a> </p>
+           <p>&copy; Coyright 2022 &middot; </p>
        </footer>
     </body>
 </html>
