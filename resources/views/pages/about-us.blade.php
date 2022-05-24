@@ -1,7 +1,6 @@
 @extends('base')
 
-@section('title', '- about-us')
-
+@section('title','About us | '.config('project.variable'))
 
 @section('content')
        <H1>About US</H1>

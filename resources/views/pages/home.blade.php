@@ -1,9 +1,9 @@
 @extends('base')
 
-@section('title','- Home')
+@section('title')
 
 
 @section('content')
-       <H1>First time Learning LARAVEL</H1>
+       <H1>{{config('app.name')}}</H1>
   
 @endsection
