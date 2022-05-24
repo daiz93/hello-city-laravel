@@ -19,7 +19,11 @@
 
         {{config('project.slogan')}}
        <footer>
-           <p>&copy; Coyright 2022 &middot;  </p>
+           <p>&copy; Coyright {{date('Y')}} 
+            @if(! Route::is('app_about'))
+            &middot;  <a href="{{route('app_about')}}">About us</a>
+            @endif
+        </p>
        </footer>
     </body>
 </html>
